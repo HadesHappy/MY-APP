@@ -1,0 +1,79 @@
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tbody {
+    overflow-x: auto;
+}
+
+.id {
+    min-width: 60px;
+}
+
+.firstnamelastname {
+    min-width: 100;
+}
+
+.email {
+    min-width: 150px;
+}
+
+.emailaddress {
+    min-width: 150px;
+}
+
+.company {
+    min-width: 150px;
+}
+
+.jobtitle {
+    min-width: 200px;
+}
+
+.phone {
+    min-width: 200px;
+}
+
+
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.buttonGroup {
+    display: flex;
+    gap: 5px;
+    justify-content: end;
+    align-items: center;
+    width: 100%;
+}
+
+.buttonGroup button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    background: #04AA6D;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+    height: 30px;
+}

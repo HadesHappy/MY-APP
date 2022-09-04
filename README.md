@@ -1,3 +1,10 @@
+## This is the test assignment from EnableIT
+Use this "give-me-users-forever.herokuapp.com/api/users/0/next" and render 10 users at a time, and a button which when clicked give the next 10 users, and there should be a previuos button as well, style it in any way you want "impress us" , do not use any library for styling(can use sass) or component.
+
+api/users/{num}/next gives next ten users with ID num+1
+
+and use CRA with typescript if used before otherwise just simple CRA and try to avoid using external libraries. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -39,8 +46,4 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
